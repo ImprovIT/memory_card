@@ -1,0 +1,40 @@
+@media screen and (max-width: 600px) {
+    body > header > h1 {
+        font-size: 135%;
+    }
+
+    header > .actions{
+        display: inline-block;
+    }
+
+    .card {
+        height: 100px;
+        width: 100px;
+    }
+
+    .card > .back {
+        background: blue;
+    }
+    
+    .games {
+        display: none;
+    }
+    .games.show {
+        display: initial;
+        top: initial;
+        height : 100%;
+    }
+
+    .messages {
+        display: none;
+    }
+
+    .messages.show {
+        display: initial;
+        width : 100%;
+    }
+    
+    .card > .front {
+        font-size: 80px
+    }
+}
